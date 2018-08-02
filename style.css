@@ -267,14 +267,8 @@ header {
 }
 
 .item-img {
-<<<<<<< HEAD
     /* width: 90%; */
     display: grid;     
-=======
-    width: 100%;
-    display: grid;
-      
->>>>>>> a1937e5f3ca5404a771b8908b9020860d4654734
 }
 
 .item-img p {
