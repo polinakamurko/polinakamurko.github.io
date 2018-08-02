@@ -1,12 +1,273 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Личный сайт Полины Камурко</title>  
-    </head>
-    <body>
-        <h1>Всем привет!</h1>
-        <h3>Теперь я тоже в диаспоре прогеров</h3>
-        <p>Обо мне:</p>
-        <p>Fuck it's so boring i'm dying(((</p>
-    </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kegelly</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <nav id="navbar">
+        <div id="logowrapper1">
+            <div id="logowrapper2">
+                <div id="title">
+                    <h1>Kegelly</h1>
+                </div>
+            </div>   
+        </div> 
+        <div class="buttonwrapper" onclick="toggle()">
+            <div id="hamburger">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>   
+        </div>
+        <div id="leftwrapper" class="closedmenu">
+            <div id="left-menu">
+                <ul class="list">
+                    <li class="list-item"><a href="#">Магазин</a></li>
+                    <li class="list-item"><a href="#">Конструктор</a></li>
+                    <li class="list-item"><a href="#">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="right-menu" class="closedmenu">
+            <a href="#" id="cart">Корзина</a>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div id="header-text" class="content-wrap">
+            <h2>Стильная спортивная одежда для взрослых и детей
+            </h2>
+            <div id="line"></div>
+            <p>Спорт шик. Это это спорт шик шик. Это спорт шик. Ты слышишь? Это шик шик.</p>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!--Section A-->
+        <section id="section-a" class="grid">
+            <h2 class="content-title">Наши премущества</h2>
+            <div class="content-wrap">
+                <ul>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="fas fa-truck"></i>
+                            </span>
+                            <h3 class=>Доставка</h3>
+                            <p>Мы осуществляем доставку по России почтовой компанией "Почта России" и "Деловыми линиями"</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </span>
+                            <h3 class=>Оплата</h3>
+                            <p>Оплатите заказ на сайте или наличными курьеру</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="fas fa-check-square"></i>
+                            </span>
+                            <h3 class=>Гарантия</h3>
+                            <p>Вы можете вернуть товары, приобретенные на нашем сайте в течение 14 дней с момента оформления заказа
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Section B-->
+        <section id="section-b" class="grid">
+            <h2 class="content-title">Каталог товаров</h2>
+            <div class="content-wrap">
+                <ul>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\1.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\2.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\3.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\4.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\5.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\6.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\7.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\8.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemcard">
+                            <p><img src="Каталог\9.jpg" class="item-img"></p>
+                            <h3>Наименование товара</h3>
+                            <p>Описание товара</p>
+                            <h4>Цена</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Section C-->
+        <section id="section-c" class="grid">
+            <h2>О нас</h2>
+            <div id="line4"></div>
+            <p>Мы, команда дизайнеров, начали заниматься брендом MY.THS в 2015. Сначала проект был совсем небольшим, мы создавали одежду и аксессуары для друзей и небольших маркетов. Нам нравится экспериментировать с материалами и кроем. Наш девиз — создавать современные и удобные вещи. Мы хотим, чтобы вам в них было комфортно в любой ситуации.</p>        
+        </section>
+
+        <!--Section D-->
+        <section id="section-d" class="grid">
+            <h2 class="content-title">Почему мы хорошо делаем свое дело?</h2>
+            <div class="content-wrap">
+                <ul>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="fas fa-feather-alt"></i>
+                            </span>
+                            <div>
+                                <h3>Материалы</h3>
+                                <p>Мы используем только натуральные и экологически-чистые материалы
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="far fa-grin"></i>
+                            </span>
+                            <div>
+                                <h3>Комфорт</h3>
+                                <p>Мы проектируем и моделируем до тех пор, пока вещь не станет идеальной
+                                </p>         
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span style="font-size: 5em; color: black;">
+                                <i class="fas fa-tint"></i>
+                            </span>
+                            <div>
+                                <h3>Простота</h3>
+                                <p>Мы верим, что простота в одежде максимально выражает индивидуальность человека</p>            
+                            </div>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+        </section>
+
+        <!--Section E-->
+        <section id="section-e" class="grid">
+            <h2>Свяжитесь с нами по любым вопросам</h2>
+            <p>Мы всегда рады коллаборациям, интересным проектам и отзывам наших клиентов</p>
+            <div>
+                <form>
+                    <input type="text" name="name" placeholder="Ваше имя"><br/>
+                    <input type="text" name="email" placeholder="Ваш e-mail"><br/>
+                    <textarea type="text" name="message" placeholder="Текст"></textarea><br/>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+
+        <!--Section F-->
+        <section id="section-f" class="grid">
+            <div>
+                <div>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                <p>Следите за нами в соцсетях и приходите в наш магазин</p>
+                <p>Петроверигский переулок, д 2. Москва</p>
+                <p>Телефон: +123 235 34 45</p>
+            </div>
+        </section>
+    
+    <!--Footer-->
+    <footer id="main-footer" class="grid">
+        <p>ОДЕЖДА В СПОРТИВНОМ СТИЛЕ KEGELLY</p>
+        <div>
+            <a href="#">О нас</a>
+            <a href="#">Магазин</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div>
+            <p>Мы в социальных сетях</p>
+            <div>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
