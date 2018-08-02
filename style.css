@@ -241,6 +241,10 @@ header {
     margin-top: 60px;
 }
 
+#catalog {
+    display: block;
+}
+
 #section-c, #section-e {
     background-color: #F0F0F0;
 }
@@ -264,8 +268,7 @@ header {
 
 .item-img {
     /* width: 90%; */
-    display: grid;
-      
+    display: grid;     
 }
 
 .item-img p {
