@@ -266,19 +266,29 @@ header {
     padding: 30px 15px 40px 15px;
 }
 
+
+.itemcard {
+    width: 90%;
+    margin: 5%;
+    display: block;
+    background-color: #fffbf9;
+}
+
 .item-img {
-    width: 100%;
-    display: grid;      
+    height: 250px;
+    width: auto;
+    margin: auto;
+    display: block;      
 }
 
 .item-img p {
     text-align: center;
 }
 
-@media(min-width: 465px) {
+@media(min-width: 665px) {
    
     .item-img {
-        height: 600px;;
+        height: 600px;
         width: 400px;
         text-align: center;
     }
