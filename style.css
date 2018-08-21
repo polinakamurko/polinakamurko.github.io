@@ -241,7 +241,7 @@ header {
     margin-top: 60px;
 }
 
-#section-b {
+#section-b * {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
