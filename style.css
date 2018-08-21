@@ -400,9 +400,22 @@ header {
         width: 33%;
     }
 
+    #catalog {
+        width: 96%;
+        margin: 0 2%;
+    }
+    #catalog li {
+        width: 29%;
+        display: inline-block;
+        margin: 1%;
+    }
+
+    #section-b .content-wrap {
+        width: 100%;
+    }
+
     .itemcard {
-        width: 30%;
-        margin: 10px 0;
+        width: 100%;
     }
 
     .item-img {
