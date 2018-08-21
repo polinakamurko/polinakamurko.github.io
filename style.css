@@ -245,13 +245,13 @@ header {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    background-color: blueviolet;
+    background-color: white;
   }
 
   #section-b .content-wrap {
     margin: auto;
     width: 90%;
-    background-color: pink;    
+    background-color: white;    
 }
 
 #catalog {
@@ -296,9 +296,22 @@ header {
 
 @media(min-width: 665px) {
    
-    .itemcard {
+    #catalog {
+        width: 96%;
+        margin: 0 2%;
+    }
+    #catalog li {
         width: 45%;
-        margin: 10px 0;
+        display: inline-block;
+        margin: 2%;
+    }
+
+    #section-b .content-wrap {
+        width: 100%;
+    }
+
+    .itemcard {
+        width: 100%;
     }
 
     .item-img {
@@ -396,18 +409,4 @@ header {
     #section-c {
         padding: 30px 15px 40px 15px;
     }
-
-    /* .grid #section-b {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
-    }
-
-    #section-b ul {
-        display: flex;
-    }
-
-    #section-b li {
-        width: 33%;
-    } */
-}    
-
+}
