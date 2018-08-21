@@ -241,8 +241,36 @@ header {
     margin-top: 60px;
 }
 
+#section-b {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: blueviolet;
+  }
+
+  #section-b .content-wrap {
+    margin: auto;
+    width: 90%;
+    background-color: pink;    
+}
+
 #catalog {
-    display: block;
+    margin: 0 12%;
+    width: 86%;
+}
+
+.itemcard {
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    display: inline-block;
+}
+
+.item-img {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: block;      
 }
 
 #section-c, #section-e {
@@ -266,48 +294,16 @@ header {
     padding: 30px 15px 40px 15px;
 }
 
-
-.itemcard {
-    width: 90%;
-    margin: 5%;
-    display: block;
-    background-color: #fffbf9;
-}
-
-.item-img {
-    height: 250px;
-    width: auto;
-    margin: auto;
-    display: block;      
-}
-
-.item-img p {
-    text-align: center;
-}
-
 @media(min-width: 665px) {
    
+    .itemcard {
+        width: 45%;
+        margin: 10px 0;
+    }
+
     .item-img {
-        height: 600px;
-        width: 400px;
-        text-align: center;
-    }
-
-    .grid #section-b {
-        display: grid;
-        grid-template-columns: 33% 33% 33%; 
-    }
-
-    .content-wrap, .content-title {
-        grid-column: 2/4;
-    }
-
-    #section-b ul {
-        display: flex;
-    }
-
-    #section-b li {
-        width: 33%;
+        width: 100%;
+        padding: 5px 15px;
     }
 }
 
@@ -386,11 +382,22 @@ header {
     #section-a li, #section-d li {
         width: 33%;
     }
+
+    .itemcard {
+        width: 30%;
+        margin: 10px 0;
+    }
+
+    .item-img {
+        width: 100%;
+        padding: 5px 15px;
+    }
+
     #section-c {
         padding: 30px 15px 40px 15px;
     }
 
-    .grid #section-b {
+    /* .grid #section-b {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
     }
@@ -401,6 +408,6 @@ header {
 
     #section-b li {
         width: 33%;
-    }
+    } */
 }    
 
