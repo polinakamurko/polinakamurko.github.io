@@ -156,7 +156,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: black url('073.jpg');
+    background: url('Каталог/073.jpg') black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
