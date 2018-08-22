@@ -3,9 +3,14 @@
     src: url(TuesdayNight-Regular.otf); 
    }
 
+html {
+    
+}
+
 * {
     box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
@@ -159,6 +164,10 @@ p {
     text-align: center;
 }
 
+header {
+
+}
+
 #showcase .bg-image {
     position: absolute;
     background: url('Каталог/073.jpg') black;
@@ -167,7 +176,7 @@ p {
     background-size: cover;
     width: 100%;
     height: 600px;
-    z-index: -1;   
+    z-index: -1;
 }
 
 #showcase h2 {
