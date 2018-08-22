@@ -6,7 +6,7 @@ function toggle() {
     if (leftwrapper.className == 'closedmenu') {
         leftwrapper.className = 'openedmenu';
         rightMenu.className = 'openedmenu';
-        navbar.style.height = '370px';
+        navbar.style.height = '320px';
         hamburger.className = 'openedhamburger';
         } else {
         leftwrapper.className = 'closedmenu';
