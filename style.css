@@ -391,6 +391,10 @@ input[type=submit]:hover {
     display: inline-block;
 }
 
+#main-footer {
+    margin-bottom: 20px;
+}
+
 #footer-menu ul {
     text-align: center;
     list-style: none;
