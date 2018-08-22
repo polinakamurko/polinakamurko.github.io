@@ -34,7 +34,7 @@ nav {
 }
 
 #logowrapper1 {
-    margin-top: -15px;
+    margin-top: -20px;
     top: 0;
     display: block;
 }
@@ -549,4 +549,5 @@ input[type=submit]:hover {
     #section-c {
         padding: 30px 15px 40px 15px;
     }
+}
 }
