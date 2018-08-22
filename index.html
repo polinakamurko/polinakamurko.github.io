@@ -32,7 +32,7 @@
             <div id="left-menu">
                 <ul class="list">
                     <li class="list-item"><a href="#">Магазин</a></li>
-                    <li class="list-item"><a href="#">Конструктор</a></li>
+                    <li class="list-item"><a href="#">Контакты</a></li>
                     <li class="list-item"><a href="#">О нас</a></li>
                 </ul>
             </div>
@@ -46,8 +46,7 @@
     <header id="showcase" class="grid">
         <div class="bg-image"></div>
         <div id="header-text" class="content-wrap">
-            <h2>Стильная спортивная одежда для взрослых и детей
-            </h2>
+            <h2>Стильная спортивная одежда</h2>
             <div id="line"></div>
             <p>Спорт шик. Это это спорт шик шик. Это спорт шик. Ты слышишь? Это шик шик.</p>
         </div>
@@ -65,8 +64,8 @@
                             <span style="font-size: 5em; color: black;">
                                 <i class="fas fa-truck"></i>
                             </span>
-                            <h3 class=>Доставка</h3>
-                            <p>Мы осуществляем доставку по России почтовой компанией "Почта России" и "Деловыми линиями"</p>
+                            <h3>Доставка</h3>
+                            <p class="advantages-text">Мы осуществляем доставку по России почтовой компанией "Почта России" и "Деловыми линиями"</p>
                         </div>
                     </li>
                     <li>
@@ -74,8 +73,8 @@
                             <span style="font-size: 5em; color: black;">
                                 <i class="fas fa-money-bill-wave"></i>
                             </span>
-                            <h3 class=>Оплата</h3>
-                            <p>Оплатите заказ на сайте или наличными курьеру</p>
+                            <h3>Оплата</h3>
+                            <p class="advantages-text">Оплатите заказ на сайте или наличными курьеру</p>
                         </div>
                     </li>
                     <li>
@@ -83,8 +82,8 @@
                             <span style="font-size: 5em; color: black;">
                                 <i class="fas fa-check-square"></i>
                             </span>
-                            <h3 class=>Гарантия</h3>
-                            <p>Вы можете вернуть товары, приобретенные на нашем сайте в течение 14 дней с момента оформления заказа
+                            <h3>Гарантия</h3>
+                            <p class="advantages-text">Вы можете вернуть товары, приобретенные на нашем сайте в течение 14 дней с момента оформления заказа
                             </p>
                         </div>
                     </li>
@@ -151,7 +150,7 @@
 
         <!--Section C-->
         <section id="section-c" class="grid">
-            <h2>О нас</h2>
+            <h2 class="content-title">О нас</h2>
             <div id="line4"></div>
             <p>Мы, команда дизайнеров, начали заниматься брендом MY.THS в 2015. Сначала проект был совсем небольшим, мы создавали одежду и аксессуары для друзей и небольших маркетов. Нам нравится экспериментировать с материалами и кроем. Наш девиз — создавать современные и удобные вещи. Мы хотим, чтобы вам в них было комфортно в любой ситуации.</p>        
         </section>
@@ -168,7 +167,7 @@
                             </span>
                             <div>
                                 <h3>Материалы</h3>
-                                <p>Мы используем только натуральные и экологически-чистые материалы
+                                <p class="advantages-text">Мы используем только натуральные и экологически-чистые материалы
                                 </p>
                             </div>
                         </div>
@@ -180,7 +179,7 @@
                             </span>
                             <div>
                                 <h3>Комфорт</h3>
-                                <p>Мы проектируем и моделируем до тех пор, пока вещь не станет идеальной
+                                <p class="advantages-text">Мы проектируем и моделируем до тех пор, пока вещь не станет идеальной
                                 </p>         
                             </div>
                         </div>
@@ -192,7 +191,7 @@
                             </span>
                             <div>
                                 <h3>Простота</h3>
-                                <p>Мы верим, что простота в одежде максимально выражает индивидуальность человека</p>            
+                                <p class="advantages-text">Мы верим, что простота в одежде максимально выражает индивидуальность человека</p>            
                             </div>
                         </div>
                     </li>
@@ -202,48 +201,78 @@
 
         <!--Section E-->
         <section id="section-e" class="grid">
-            <h2>Свяжитесь с нами по любым вопросам</h2>
+            <h2 class="content-title">Свяжитесь с нами по любым вопросам</h2>
             <p>Мы всегда рады коллаборациям, интересным проектам и отзывам наших клиентов</p>
             <div>
                 <form>
-                    <input type="text" name="name" placeholder="Ваше имя"><br/>
-                    <input type="text" name="email" placeholder="Ваш e-mail"><br/>
-                    <textarea type="text" name="message" placeholder="Текст"></textarea><br/>
-                    <input type="submit">
+
+                    <div class="form-inputbox">
+                        <input type="text" name="email" placeholder="Ваш e-mail"><br/>
+                    </div>
+                    <div class="form-inputbox">
+                        <input type="text" name="name" placeholder="Ваше имя"><br/>
+                    </div>
+                    <div class="form-inputbox">
+                        <textarea name="message" placeholder="Текст"></textarea><br/>
+                    </div>
+                    <div class="form-inputbox">
+                        <input type="submit">
+                    </div>
                 </form>
+                <p id="warning">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
             </div>
         </section>
 
         <!--Section F-->
         <section id="section-f" class="grid">
-            <div>
-                <div>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+            <div class="socialnetw-container">
+                <h2 class="content-title">Следите за нами в социальных сетях</h2>
+                <div class="content-wrap">
+                    <ul>
+                        <li class="social-icons">
+                            <div>
+                                <span style="font-size: 3em; color: black;">
+                                    <a href="#"><i class="fab fa-vk"></i></a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="social-icons">
+                            <div>
+                                <span style="font-size: 3em; color: black;">
+                                    <a href="https://www.instagram.com/kegelly_shop/"><i class="fab fa-instagram"></i></a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="social-icons">
+                            <div>
+                                <span style="font-size: 3em; color: black;">
+                                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>    
                 </div>
-                <p>Следите за нами в соцсетях и приходите в наш магазин</p>
-                <p>Петроверигский переулок, д 2. Москва</p>
-                <p>Телефон: +123 235 34 45</p>
+                <p>Телефон: +7 (912) 557 18 93</p>
             </div>
         </section>
     
     <!--Footer-->
     <footer id="main-footer" class="grid">
+        <div id="footer-menu">
+            <ul>
+                <li>
+                    <a href="#">Магазин</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+                <li>
+                    <a href="#">О нас</a>
+                </li>
+            </ul>
+        </div>
         <p>ОДЕЖДА В СПОРТИВНОМ СТИЛЕ KEGELLY</p>
-        <div>
-            <a href="#">О нас</a>
-            <a href="#">Магазин</a>
-            <a href="#">Контакты</a>
-        </div>
-        <div>
-            <p>Мы в социальных сетях</p>
-            <div>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </div>
+        
     </footer>
 </body>
 </html>

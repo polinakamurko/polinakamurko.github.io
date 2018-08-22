@@ -11,7 +11,6 @@ body {
     margin: 0;
     font-family: 'Poiret One', cursive;
     color: black;
-    /* overflow: hidden; */
 }
 
 main {
@@ -47,7 +46,7 @@ nav {
 h1 {
     font-family: 'Tuesday Night';
     font-weight: lighter;
-    font-size: 2.1em;
+    font-size: 2.3em;
 }
 
 a {
@@ -92,6 +91,7 @@ a {
 #hamburger {
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 .line {
@@ -142,10 +142,15 @@ h2, h3, h4 {
     text-align: center;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 p {
     margin: 0;
     padding: 1em 0;
     text-align: center;
+    font-size: 22px;
 }
 
 #showcase {
@@ -241,6 +246,16 @@ header {
     margin-top: 60px;
 }
 
+.content-title {
+    font-size: 30px;
+}
+
+.advantages-text {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
 #section-b * {
     padding: 0;
     box-sizing: border-box;
@@ -249,18 +264,18 @@ header {
   }
 
 #section-b .content-title {
-    margin: 50px 0 20px 0;
+    margin: 50px 0 40px 0;
 }
 
-  #section-b .content-wrap {
+#section-b .content-wrap {
     margin: auto;
     width: 90%;
     background-color: white;    
 }
 
 #catalog {
-    margin: 0 12%;
-    width: 86%;
+    margin: 0 7%;
+    width: 100%;
 }
 
 .itemcard {
@@ -272,8 +287,7 @@ header {
 
 .item-img {
     height: auto;
-    width: 90%;
-    margin: auto;
+    width: 100%;
     display: block;      
 }
 
@@ -298,8 +312,111 @@ header {
     padding: 30px 15px 40px 15px;
 }
 
+#section-e p {
+    padding: 20px 5%;
+}
+
+#section-e input, #section-e textarea {
+    font-family:  'Poiret One', cursive;
+    font-size: 18px;
+}
+
+.form-inputbox {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 60px;
+    background-color: #F0F0F0;
+    border: 1px solid #e0e0e0;
+    padding: 5px 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 102px;
+    background-color: #F0F0F0;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+} 
+
+input[type=submit] {
+    border: 1px black;
+    border-radius: 7px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 60px;
+    
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    border: 1px rgb(250, 0, 94);
+    background-color: rgb(250, 0, 94);
+    color: white;
+}
+
+#warning {
+    font-size: 14px;
+}
+
+.socialnetw-container {
+    padding: 0 20px 0 20px;
+    margin-top: 50px;
+    display: block;
+}
+
+#section-f .content-wrap {
+    display: block;
+    margin: auto;
+}
+
+#section-f h2 {
+    padding-top: 0;
+}
+
+#section-f ul {
+    text-align: center;
+}
+
+#section-f .social-icons  {
+    width: 54px;
+    margin: 0 5px 0 5px;
+    display: inline-block;
+}
+
+#footer-menu ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-menu li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer-menu a {
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
 @media(min-width: 665px) {
    
+    .advantages-text {
+        width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+
     #catalog {
         width: 96%;
         margin: 0 2%;
@@ -322,6 +439,9 @@ header {
         width: 100%;
         padding: 5px 15px;
     }
+
+    .form-inputbox, textarea {
+        width: 560px;
 }
 
 @media(min-width: 850px) {
@@ -401,11 +521,10 @@ header {
     }
 
     #catalog {
-        width: 96%;
-        margin: 0 2%;
+        width: 100%;
     }
     #catalog li {
-        width: 29%;
+        width: 30%;
         display: inline-block;
         margin: 1%;
     }
