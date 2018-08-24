@@ -307,27 +307,42 @@ header {
     width: 1.5em;
 }
 
-.circle#violet {
+.square {
+    display: inline-block;
+    border-radius: 15%;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.square2 {
+    display: inline-block;
+    border-radius: 0%;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+
+#violet {
     background-color: #75408a;
 }
 
-.circle#green {
+#green {
     background-color: #005977;
 }
 
-.circle#pink {
+#pink {
     background-color: #D9005B;
 }
 
-.circle#bordo {
+#bordo {
     background-color: #4F2D34;
 }
 
-.circle#purple {
+#purple {
     background-color: #A1719F;
 }
 
-.circle#blue {
+#blue {
     background-color: #1D4470;
 }
 
