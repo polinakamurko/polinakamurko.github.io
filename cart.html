@@ -42,8 +42,8 @@
         </div>
     </nav>
 
-    <!--Cart Main-->
-    <section id="cart-main-wrapper">
+    <!--Cart Table-->
+    <section id="cart-table-wrapper">
         <h2 class="cart-content-title">Ваша корзина</h2>
         <div class="to-buy">
             <table>
@@ -71,7 +71,31 @@
             </table>
             <p id="total">Итого:</p>
         </div>
+    </section>
 
+    <!--Cart-Delivery-->
+    <section id="delivery">
+        <h2 class="cart-content-title">Доставка</h2>
+        <div>
+            <form>
+                <div id="right-menu" class="closedmenu">
+                    <a href="#" id="cart">Санкт-Петербург</a>
+                </div>
+                <div class="form-inputbox">
+                    <input type="text" name="email" placeholder="Ваш e-mail"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <input type="text" name="name" placeholder="Ваше имя"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <textarea name="message" placeholder="Текст"></textarea><br/>
+                </div>
+                <div class="form-inputbox">
+                    <input type="submit">
+                </div>
+            </form>
+            <p id="warning">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+        </div>
     </section>
 </body>
 </html>
