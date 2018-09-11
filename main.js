@@ -1,4 +1,4 @@
-function toggle() {
+function toggleHamburger() {
     var leftwrapper = document.getElementById('leftwrapper');
     var rightMenu = document.getElementById('right-menu');
     var navbar = document.getElementById('navbar');
@@ -13,6 +13,15 @@ function toggle() {
         rightMenu.className = 'closedmenu';
         navbar.style.height = '90px';
         hamburger.className = ' ';
+    }
+}
+
+function toggleCityCart() {
+    var buttonSpb = document.getElementById('button-spb');
+    var buttonAnotherCity = document.getElementById('button-anothercity');
+    var deletable = document.getElementById('deletable');
+    if (onclick) {
+
     }
 }
 

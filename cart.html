@@ -21,7 +21,7 @@
                 </div>
             </div>   
         </div> 
-        <div class="buttonwrapper" onclick="toggle()">
+        <div class="buttonwrapper" onclick="toggleHamburger()">
             <div id="hamburger">
                 <span class="line line1"></span>
                 <span class="line line2"></span>
@@ -77,23 +77,32 @@
     <section id="delivery">
         <h2 class="cart-content-title">Доставка</h2>
         <div id="city-choice">
-            <div id="button-spb" class="city-button">
-                <a href="#" class="city-link">Санкт-Петербург</a>
+            <div class="city-button">
+                <button class="city-link" id="button-spb" onclick="toggleCityCart()">Санкт-Петербург</button>
             </div>
-            <div id="button-anothercity" class="city-button">
-                <a href="#" class="city-link">Другой город</a>
+            <div class="city-button">
+                <button class="city-link" id="button-anothercity" onclick="toggleCityCart()">Другой город</button>
             </div>
         </div>
         <div>
             <form>
                 <div class="form-inputbox">
-                    <input type="text" name="email" placeholder="Ваш e-mail"><br/>
-                </div>
-                <div class="form-inputbox">
                     <input type="text" name="name" placeholder="Ваше имя"><br/>
                 </div>
+                <div class="form-inputbox" id="deletable">
+                    <input type="text" name="town" placeholder="Город"><br/>
+                </div>
                 <div class="form-inputbox">
-                    <textarea name="message" placeholder="Текст"></textarea><br/>
+                    <input type="text" name="address" placeholder="Адрес: улица, дом, квартира"><br/>
+                </div>
+                <div class="form-inputbox"  id="deletable">
+                    <input type="text" name="index" placeholder="Почтовый индекс"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <input type="text" name="mobile" placeholder="Номер телефона"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <textarea name="message" placeholder="Комментарий к заказу"></textarea><br/>
                 </div>
                 <div class="form-inputbox">
                     <input type="submit">
