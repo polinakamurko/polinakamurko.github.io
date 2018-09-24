@@ -78,10 +78,10 @@
         <h2 class="cart-content-title">Доставка</h2>
         <div id="city-choice">
             <div class="city-button">
-                <button class="city-link" id="button-spb" onclick="toggleCityCart()">Санкт-Петербург</button>
+                <button class="city-link" id="button-spb" onclick="toggleCityCart(this)">Санкт-Петербург</button>
             </div>
             <div class="city-button">
-                <button class="city-link" id="button-anothercity" onclick="toggleCityCart()">Другой город</button>
+                <button class="city-link" id="button-anothercity" onclick="toggleCityCart(this)">Другой город</button>
             </div>
         </div>
         <div>
@@ -89,13 +89,13 @@
                 <div class="form-inputbox">
                     <input type="text" name="name" placeholder="Ваше имя"><br/>
                 </div>
-                <div class="form-inputbox" id="deletable">
+                <div class="form-inputbox deletable">
                     <input type="text" name="town" placeholder="Город"><br/>
                 </div>
                 <div class="form-inputbox">
                     <input type="text" name="address" placeholder="Адрес: улица, дом, квартира"><br/>
                 </div>
-                <div class="form-inputbox"  id="deletable">
+                <div class="form-inputbox deletable">
                     <input type="text" name="index" placeholder="Почтовый индекс"><br/>
                 </div>
                 <div class="form-inputbox">

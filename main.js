@@ -16,12 +16,21 @@ function toggleHamburger() {
     }
 }
 
-function toggleCityCart() {
+function toggleCityCart(button) {
     var buttonSpb = document.getElementById('button-spb');
     var buttonAnotherCity = document.getElementById('button-anothercity');
-    var deletable = document.getElementById('deletable');
-    if (onclick) {
+    var deletable = document.getElementsByClassName('deletable');
 
+    if (button.innerHTML=='Санкт-Петербург') {
+        for (let index = 0; index < deletable.length; index++) {
+            const element = deletable[index];
+            element.style.display = "none";
+        }   
+    } else {
+        for (let index = 0; index < deletable.length; index++) {
+            const element = deletable[index];
+            element.style.display = "block";
+        }
     }
 }
 
