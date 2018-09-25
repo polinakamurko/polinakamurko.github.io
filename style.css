@@ -298,7 +298,6 @@ header {
     display: block;
     width: 14em;
     margin: auto !important;
-
 }
 
 .square {
@@ -310,7 +309,6 @@ header {
 
 div.square:hover {
     box-shadow: 0 0 10px #8f8f8f;
-    
 }
 
 #violet {
@@ -335,6 +333,43 @@ div.square:hover {
 
 #blue {
     background-color: #1D4470;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.modal-content {
+    background-color: white;
+    margin: 24% auto;
+    padding: 10px;
+    width: 90%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.closeBtn {
+    font-size: 60px;
+    float: right;
+}
+
+.closeBtn:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
 
 #section-c, #section-e {
