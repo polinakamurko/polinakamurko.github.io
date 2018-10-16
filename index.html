@@ -6,346 +6,346 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kegelly</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
 
-    <!--Navigation Bar-->
-    <nav id="navbar">
-        <div id="logowrapper1">
-            <div id="logowrapper2">
-                <div id="title">
-                    <h1>Kegelly</h1>
-                </div>
-            </div>   
-        </div> 
-        <div class="buttonwrapper" onclick="toggleHamburger()">
-            <div id="hamburger">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>   
-        </div>
-        <div id="leftwrapper" class="closedmenu">
-            <div id="left-menu">
-                <ul class="list">
-                    <li class="list-item"><a href="#catalog">Каталог</a></li>
-                    <li class="list-item"><a href="#">Контакты</a></li>
-                    <li class="list-item"><a href="#">О нас</a></li>
-                </ul>
+<!--Navigation Bar-->
+<nav id="navbar">
+    <div id="logowrapper1">
+        <div id="logowrapper2">
+            <div id="title">
+                <h1>Kegelly</h1>
             </div>
+        </div>   
+    </div> 
+    <div class="buttonwrapper" onclick="toggleHamburger()">
+        <div id="hamburger">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>   
+    </div>
+    <div id="leftwrapper" class="closedmenu">
+        <div id="left-menu">
+            <ul class="list">
+                <li class="list-item"><a href="#catalog">Каталог</a></li>
+                <li class="list-item"><a href="#">Контакты</a></li>
+                <li class="list-item"><a href="#">О нас</a></li>
+            </ul>
         </div>
-        <div id="right-menu" class="closedmenu">
-            <a href="cart.html" id="cart">Корзина</a>
+    </div>
+    <div id="right-menu" class="closedmenu">
+        <a href="cart.html" id="cart">Корзина</a>
+    </div>
+</nav>
+
+<!--Header-->
+<header id="showcase" class="grid">
+    <div class="bg-image"></div>
+    <div id="header-text" class="content-wrap">
+        <h2>Стильная спортивная одежда</h2>
+        <div id="line"></div>
+        <p>Спорт шик. Это это спорт шик шик. Это спорт шик. Ты слышишь? Это шик шик.</p>
+    </div>
+</header>
+
+<main id="main">
+
+    <!--Section A-->
+    <section id="section-a" class="grid">
+        <h2 class="content-title">Наши премущества</h2>
+        <div class="content-wrap">
+            <ul>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="fas fa-truck"></i>
+                        </span>
+                        <h3>Доставка</h3>
+                        <p class="advantages-text">Мы осуществляем доставку по России почтовой компанией "Почта России" и "Деловыми линиями"</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </span>
+                        <h3>Оплата</h3>
+                        <p class="advantages-text">Оплатите заказ на сайте или наличными курьеру</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="fas fa-check-square"></i>
+                        </span>
+                        <h3>Гарантия</h3>
+                        <p class="advantages-text">Вы можете вернуть товары, приобретенные на нашем сайте в течение 14 дней с момента оформления заказа
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </section>
 
-    <!--Header-->
-    <header id="showcase" class="grid">
-        <div class="bg-image"></div>
-        <div id="header-text" class="content-wrap">
-            <h2>Стильная спортивная одежда</h2>
-            <div id="line"></div>
-            <p>Спорт шик. Это это спорт шик шик. Это спорт шик. Ты слышишь? Это шик шик.</p>
-        </div>
-    </header>
-
-    <main id="main">
-
-        <!--Section A-->
-        <section id="section-a" class="grid">
-            <h2 class="content-title">Наши премущества</h2>
-            <div class="content-wrap">
-                <ul>
-                    <li>
-                        <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="fas fa-truck"></i>
-                            </span>
-                            <h3>Доставка</h3>
-                            <p class="advantages-text">Мы осуществляем доставку по России почтовой компанией "Почта России" и "Деловыми линиями"</p>
+    <!--Section B-->
+    <section id="section-b" class="grid"> 
+        <h2 class="content-title"><a name="#catalog">Каталог товаров</h2></a>
+        <div class="content-wrap">
+            <ul id="catalog">
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\154-min.jpg" class="item-img" onclick="openModal();">
+                        <h3>Наименование товара</h3>
+                        <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="fas fa-money-bill-wave"></i>
-                            </span>
-                            <h3>Оплата</h3>
-                            <p class="advantages-text">Оплатите заказ на сайте или наличными курьеру</p>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\292-min.jpg" class="item-img">
+                        <h3>Наименование товара</h3>
+                        <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
                         </div>
-                    </li>
-                    <li>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\078-min.jpg" class="item-img">
+                        <h3>Наименование товара</h3>
+                      <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
+                        </div>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\150-min.jpg" class="item-img">
+                        <h3>Наименование товара</h3>
+                        <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
+                        </div>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\127-min.jpg" class="item-img">
+                        <h3>Наименование товара</h3>
+                        <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
+                        </div>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemcard">
+                        <img src="Каталог\241-min.jpg" class="item-img">
+                        <h3>Наименование товара</h3>
+                        <div class="color-list-container">
+                            <div class="color-list">
+                                <div class="square" id="bordo"></div>
+                                <div class="square" id="violet"></div>
+                                <div class="square" id="purple"></div>
+                                <div class="square" id="green"></div>
+                                <div class="square" id="blue"></div>
+                                <div class="square" id="pink"></div>
+                            </div>
+                        </div>
+                        <h4>Цена</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Modal-->
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <img src="Каталог\154-min.jpg" class="modal-img">
+            <h2>Костюм "Ника"</h2>
+            <p>Описание товара</p>
+            <p class="item-details">Цвет:</p>
+            <p class="item-details">Размер свитшота:</p>
+            <p class="item-details">Размер брюк:</p>
+            <p class="item-details">Наличие:</p>
+            <p class="item-details">Цена:</p>
+            <button class="add-to-cart">Добавить в корзину</button>
+        </div>
+    </div>
+
+    <!--Section C-->
+    <section id="section-c" class="grid">
+        <h2 class="content-title">О нас</h2>
+        <div id="line4"></div>
+        <p>Мы, команда дизайнеров, начали заниматься брендом MY.THS в 2015. Сначала проект был совсем небольшим, мы создавали одежду и аксессуары для друзей и небольших маркетов. Нам нравится экспериментировать с материалами и кроем. Наш девиз — создавать современные и удобные вещи. Мы хотим, чтобы вам в них было комфортно в любой ситуации.</p>        
+    </section>
+
+    <!--Section D-->
+    <section id="section-d" class="grid">
+        <h2 class="content-title">Почему мы хорошо делаем свое дело?</h2>
+        <div class="content-wrap">
+            <ul>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="fas fa-feather-alt"></i>
+                        </span>
                         <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="fas fa-check-square"></i>
-                            </span>
-                            <h3>Гарантия</h3>
-                            <p class="advantages-text">Вы можете вернуть товары, приобретенные на нашем сайте в течение 14 дней с момента оформления заказа
+                            <h3>Материалы</h3>
+                            <p class="advantages-text">Мы используем только натуральные и экологически-чистые материалы
                             </p>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!--Section B-->
-        <section id="section-b" class="grid"> 
-            <h2 class="content-title"><a name="#catalog">Каталог товаров</h2></a>
-            <div class="content-wrap">
-                <ul id="catalog">
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\154-min.jpg" class="item-img" onclick="openModal();">
-                            <h3>Наименование товара</h3>
-                            <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="far fa-grin"></i>
+                        </span>
+                        <div>
+                            <h3>Комфорт</h3>
+                            <p class="advantages-text">Мы проектируем и моделируем до тех пор, пока вещь не станет идеальной
+                            </p>         
                         </div>
-                    </li>
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\292-min.jpg" class="item-img">
-                            <h3>Наименование товара</h3>
-                            <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span style="font-size: 5em; color: black;">
+                            <i class="fas fa-tint"></i>
+                        </span>
+                        <div>
+                            <h3>Простота</h3>
+                            <p class="advantages-text">Мы верим, что простота в одежде максимально выражает индивидуальность человека</p>            
                         </div>
-                    </li>
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\078-min.jpg" class="item-img">
-                            <h3>Наименование товара</h3>
-                          <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\150-min.jpg" class="item-img">
-                            <h3>Наименование товара</h3>
-                            <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\127-min.jpg" class="item-img">
-                            <h3>Наименование товара</h3>
-                            <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="itemcard">
-                            <img src="Каталог\241-min.jpg" class="item-img">
-                            <h3>Наименование товара</h3>
-                            <div class="color-list-container">
-                                <div class="color-list">
-                                    <div class="square" id="bordo"></div>
-                                    <div class="square" id="violet"></div>
-                                    <div class="square" id="purple"></div>
-                                    <div class="square" id="green"></div>
-                                    <div class="square" id="blue"></div>
-                                    <div class="square" id="pink"></div>
-                                </div>
-                            </div>
-                            <h4>Цена</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!--Modal-->
-        <div id="simpleModal" class="modal">
-            <div class="modal-content">
-                <span class="closeBtn">&times;</span>
-                <img src="Каталог\154-min.jpg" class="modal-img">
-                <h2>Костюм "Ника"</h2>
-                <p>Описание товара</p>
-                <p class="item-details">Цвет:</p>
-                <p class="item-details">Размер свитшота:</p>
-                <p class="item-details">Размер брюк:</p>
-                <p class="item-details">Наличие:</p>
-                <p class="item-details">Цена:</p>
-                <button class="add-to-cart">Добавить в корзину</button>
-            </div>
+                    </div>
+                </li>
+            </ul>    
         </div>
+    </section>
 
-        <!--Section C-->
-        <section id="section-c" class="grid">
-            <h2 class="content-title">О нас</h2>
-            <div id="line4"></div>
-            <p>Мы, команда дизайнеров, начали заниматься брендом MY.THS в 2015. Сначала проект был совсем небольшим, мы создавали одежду и аксессуары для друзей и небольших маркетов. Нам нравится экспериментировать с материалами и кроем. Наш девиз — создавать современные и удобные вещи. Мы хотим, чтобы вам в них было комфортно в любой ситуации.</p>        
-        </section>
+    <!--Section E-->
+    <section id="section-e" class="grid">
+        <h2 class="content-title">Свяжитесь с нами по любым вопросам</h2>
+        <p>Мы всегда рады коллаборациям, интересным проектам и отзывам наших клиентов</p>
+        <div>
+            <form>
 
-        <!--Section D-->
-        <section id="section-d" class="grid">
-            <h2 class="content-title">Почему мы хорошо делаем свое дело?</h2>
+                <div class="form-inputbox">
+                    <input type="text" name="email" placeholder="Ваш e-mail"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <input type="text" name="name" placeholder="Ваше имя"><br/>
+                </div>
+                <div class="form-inputbox">
+                    <textarea name="message" placeholder="Текст"></textarea><br/>
+                </div>
+                <div class="form-inputbox">
+                    <input type="submit">
+                </div>
+            </form>
+            <p id="warning">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+        </div>
+    </section>
+
+    <!--Section F-->
+    <section id="section-f" class="grid">
+        <div class="socialnetw-container">
+            <h2 class="content-title">Следите за нами в социальных сетях</h2>
             <div class="content-wrap">
                 <ul>
-                    <li>
+                    <li class="social-icons">
                         <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="fas fa-feather-alt"></i>
+                            <span style="font-size: 3em; ">
+                                <a target="_blank" href="#"><i class="fab fa-vk"></i></a>
                             </span>
-                            <div>
-                                <h3>Материалы</h3>
-                                <p class="advantages-text">Мы используем только натуральные и экологически-чистые материалы
-                                </p>
-                            </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="social-icons">
                         <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="far fa-grin"></i>
+                            <span style="font-size: 3em;">
+                                <a target="_blank" href="https://www.instagram.com/kegelly.shop/"><i class="fab fa-instagram"></i></a>
                             </span>
-                            <div>
-                                <h3>Комфорт</h3>
-                                <p class="advantages-text">Мы проектируем и моделируем до тех пор, пока вещь не станет идеальной
-                                </p>         
-                            </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="social-icons">
                         <div>
-                            <span style="font-size: 5em; color: black;">
-                                <i class="fas fa-tint"></i>
+                            <span style="font-size: 3em;">
+                                    <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
                             </span>
-                            <div>
-                                <h3>Простота</h3>
-                                <p class="advantages-text">Мы верим, что простота в одежде максимально выражает индивидуальность человека</p>            
-                            </div>
                         </div>
                     </li>
                 </ul>    
             </div>
-        </section>
-
-        <!--Section E-->
-        <section id="section-e" class="grid">
-            <h2 class="content-title">Свяжитесь с нами по любым вопросам</h2>
-            <p>Мы всегда рады коллаборациям, интересным проектам и отзывам наших клиентов</p>
-            <div>
-                <form>
-
-                    <div class="form-inputbox">
-                        <input type="text" name="email" placeholder="Ваш e-mail"><br/>
-                    </div>
-                    <div class="form-inputbox">
-                        <input type="text" name="name" placeholder="Ваше имя"><br/>
-                    </div>
-                    <div class="form-inputbox">
-                        <textarea name="message" placeholder="Текст"></textarea><br/>
-                    </div>
-                    <div class="form-inputbox">
-                        <input type="submit">
-                    </div>
-                </form>
-                <p id="warning">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
-            </div>
-        </section>
-
-        <!--Section F-->
-        <section id="section-f" class="grid">
-            <div class="socialnetw-container">
-                <h2 class="content-title">Следите за нами в социальных сетях</h2>
-                <div class="content-wrap">
-                    <ul>
-                        <li class="social-icons">
-                            <div>
-                                <span style="font-size: 3em; ">
-                                    <a target="_blank" href="#"><i class="fab fa-vk"></i></a>
-                                </span>
-                            </div>
-                        </li>
-                        <li class="social-icons">
-                            <div>
-                                <span style="font-size: 3em;">
-                                    <a target="_blank" href="https://www.instagram.com/kegelly.shop/"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </li>
-                        <li class="social-icons">
-                            <div>
-                                <span style="font-size: 3em;">
-                                        <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
-                                </span>
-                            </div>
-                        </li>
-                    </ul>    
-                </div>
-                <p>Телефон: +7 (912) 557 18 93</p>
-            </div>
-        </section>
-    
-    <!--Footer-->
-    <footer id="main-footer" class="grid">
-        <div id="footer-menu">
-            <ul>
-                <li>
-                    <a href="#catalog">Каталог</a>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
-                </li>
-                <li>
-                    <a href="#">О нас</a>
-                </li>
-            </ul>
+            <p>Телефон: +7 (912) 557 18 93</p>
         </div>
-        <p>ОДЕЖДА В СПОРТИВНОМ СТИЛЕ KEGELLY</p>
-        
-    </footer>
+    </section>
+
+<!--Footer-->
+<footer id="main-footer" class="grid">
+    <div id="footer-menu">
+        <ul>
+            <li>
+                <a href="#catalog">Каталог</a>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+            <li>
+                <a href="#">О нас</a>
+            </li>
+        </ul>
+    </div>
+    <p>ОДЕЖДА В СПОРТИВНОМ СТИЛЕ KEGELLY</p>
     
-    <script src="main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
