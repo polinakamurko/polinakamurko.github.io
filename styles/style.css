@@ -162,7 +162,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: url('Каталог/073-min.jpg') black;
+    background: url('/Каталог/073-min.jpg') black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
