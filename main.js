@@ -1,3 +1,15 @@
+$('document').ready(function(){
+    loadClothes();
+});
+
+function loadClothes(){
+    //загружаю товары на стр
+    $.getJSON('Clothes.json', function(data){
+        console.log(data);
+    })
+}
+
+/*
 function toggleHamburger() {
     var leftwrapper = document.getElementById('leftwrapper');
     var rightMenu = document.getElementById('right-menu');
@@ -54,3 +66,4 @@ function toggleCityCart(button) {
     }
 }
 
+*/
